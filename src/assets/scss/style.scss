@@ -1,0 +1,32 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import './variables/variables';
+
+.primary .nav-tabs .nav-link.active {
+    position: relative;
+    color: $primary;
+}
+
+.primary .nav-tabs .nav-link.active,
+.primary .nav-tabs .nav-item.show .nav-link {
+    color: $primary;
+    background-color: #0000;
+    border-color: #dae1e7 #dae1e7 #0000;
+}
+
+body {
+    font-family: "Ubuntu", "Montserrat", Helvetica, Arial, serif !important;
+}
+
+.card-dark-bg {
+    background-color: $lightGray;
+}
+
+.btn.disabled {
+    cursor: not-allowed;
+}
