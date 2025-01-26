@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto p-4">
-    <h1 class="text-2xl font-bold mb-6">Pond Status</h1>
+
     
     <!-- Loading and Error Messages -->
     <div v-if="loading" class="text-center text-gray-500">Loading...</div>
